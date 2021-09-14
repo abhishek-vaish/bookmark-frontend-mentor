@@ -1,0 +1,13 @@
+@keyframes fadein {
+  0% {
+    transform: translateX(-100%);
+  }
+  1% {
+    transform: translateX(1%);
+    transition: all 1s linear;
+  }
+  100% {
+    transform: translateX(100%);
+    transition: all 1s linear;
+  }
+}
