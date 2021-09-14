@@ -511,6 +511,11 @@
   background-color: #9194a1;
   display: flex;
 }
+@media (min-width: 360px) and (max-width: 600px) {
+  .faq__accordion button::before {
+    width: 300px;
+  }
+}
 .faq__accordion .answer {
   height: 0px;
   overflow: hidden;

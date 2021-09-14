@@ -493,6 +493,10 @@
         width: 542px;
         background-color: map-get($map: $neutral, $key: "GrayishBlue");
         display: flex;
+
+        @include breakpoints("mobile") {
+          width: 300px;
+        }
       }
     }
 
